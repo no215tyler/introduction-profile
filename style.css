@@ -103,3 +103,20 @@ article h6 {
   justify-content: center;
   margin: 8px 0;
 }
+
+/* レスポンシブ */
+@media (max-width: 600px) {
+  .bicycle-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-logo {
+    margin: 4px;
+  }
+  .nav-link {
+    right: 4px;
+  }
+}
